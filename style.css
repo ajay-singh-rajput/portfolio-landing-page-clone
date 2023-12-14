@@ -1,0 +1,175 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background: black;
+    color: antiquewhite;
+    font-family: 'Raleway', sans-serif;
+}
+.head-div{
+    width: 100%;
+    height: 8%;
+    /* background: red; */
+    display: flex;
+    padding-top: 1%;
+    position: fixed;
+    z-index: 99;
+}
+.head-div div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    padding-left: 2%;
+}
+.head-div2{
+    justify-content: space-evenly;
+}
+
+
+.main-div{
+width: 100%;
+height: 90%;
+padding-top: 10%;
+position: relative;
+text-align: center;
+/* overflow: hidden; */
+
+}
+.main-div img{
+    height: 65%;
+    position: relative;
+    box-shadow: 0 0 3px black;
+    /* left: 40%; */
+}
+.rt-image3{
+    left: -7%;
+    top: -2%;
+    transform: rotate(7deg) translateX(90px);
+}
+.rt-image2{
+    left: 13%;
+    top: -4%;
+    transform: rotate(14deg)translateX(30px);
+}
+.rt-image1{
+    left: 32%;
+    transform:rotate(21deg) translateX(-15px);
+    top: -6%;
+}
+.rt-image4{
+    left: -17%;
+}
+.main-div h1{
+font-size: 150px;
+width: fit-content;
+position: relative;
+/* top: -50%; */
+color: white;
+text-shadow: 0 0 1px black;
+font-weight: 300;
+/* overflow: hidden; */
+}
+.a-h1{
+    top: -50%;
+    left: 10%;
+}
+.a-h2{
+    top: -59%;
+    left: 35%;
+}
+.a-h3{
+    top: -70%;
+    left: 40%;
+}
+.dtl-div{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    font-size: 12px;
+    position: relative;
+    top: -73%;
+    font-weight: 200;
+}
+.dtl-div div{
+    width: 33.3%;
+    font-size: 18px;
+    font-weight: 200;
+}
+.dtl-1 h1{
+    font-size: 18px;
+    font-weight: 200;
+}
+.dtl-2 h1{
+    font-size: 18px;
+    font-weight: 200;
+}
+.dtl-3 h1{
+    font-size: 18px;
+    font-weight: 200;
+    
+}
+.dtl-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.dtl-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* ____________________________________________ */
+/* glry div */
+
+.glry-div{
+    width: 100%;
+    height: 100%;
+    padding-top: 3%;
+}
+.glry-d1{
+    /* padding-top: 8%; */
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+}
+.glry-d1 div{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2%;
+    
+}
+
+.d1-img{
+    width: 100%;
+}
+
+.glry-d2{
+    display: flex;
+    justify-content: end;
+    padding:8px;
+}
+.glry-d2 img{
+    width: 3%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.glry-d3{
+    width: 100%;
+    font-size: 90px;
+    display: flex;
+    justify-content: space-between;
+}
